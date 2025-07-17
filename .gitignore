@@ -1,0 +1,54 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+.env
+
+# Ignorar archivos y carpetas de Java/Spring Boot
+HardPc-Back/target/
+HardPc-Back/.idea/
+HardPc-Back/.classpath
+HardPc-Back/.project
+HardPc-Back/.settings/
+HardPc-Back/.vscode/
+
+# Ignorar archivos y carpetas de Node/Frontend (si usas npm/yarn)
+HardPc-Front/node_modules/
+HardPc-Front/.env
+HardPc-Front/.vscode/
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar variables de entorno globales
+.env
